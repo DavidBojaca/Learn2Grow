@@ -3,7 +3,7 @@
   }
 
   .navbar-brand img {
-    height: 40px; /* altura deseada */
+    height: 60px; /* altura deseada */
     width: auto; /* ancho ajustado automáticamente para mantener la proporción */
   }
 
