@@ -1,5 +1,9 @@
 .navbar {
-    background-color: #D5D8DC ;
+    background-color: #D5D8DC;
+  }
+
+  .nav-item{
+    
   }
 
   .navbar-brand img {
@@ -13,4 +17,11 @@
 
   body {
     font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .container {
+    /* Estilos para la clase container */
+    width: 100%; /* Ejemplo de estilo */
+    margin: 0 auto; /* Ejemplo de estilo */
+    background-color: #F8F9F9 ;
   }
