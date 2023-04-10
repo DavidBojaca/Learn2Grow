@@ -1,0 +1,36 @@
+.navbar {
+    background-color:#D2B4DE;
+  }
+
+  .nav-item{
+    
+  }
+
+  .navbar-brand img {
+    height: 60px; /* altura deseada */
+    width: auto; /* ancho ajustado automáticamente para mantener la proporción */
+  }
+
+  .btn {
+    background-color: #2388ec;
+  }
+
+  body {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .container {
+    /* Estilos para la clase container */
+    width: 100%; /* Ejemplo de estilo */
+    margin: 0 auto; /* Ejemplo de estilo */
+    /*background-color: #aacbcb*/;
+
+  }
+  .flex{
+    display: flex;
+  }
+
+
+
+
+
