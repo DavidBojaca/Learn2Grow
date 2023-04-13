@@ -30,6 +30,11 @@
     display: flex;
   }
 
+  .jumbotron img{
+    height: auto; /* altura deseada */
+    width: auto; /* ancho ajustado automáticamente para mantener la proporción */
+  }
+
 
 
 
