@@ -27,7 +27,7 @@ public class RespuestasEstudiante {
     }
 
 
-    //@ManyToOne()
-    //@JoinColumn(name="nombre")
-    //ComentariosEstudiante comentarioEstudiante;
+    @ManyToOne()
+    @JoinColumn(name = "FK_comentario")
+    ComentariosEstudiante comentarioEstudiante;
 }

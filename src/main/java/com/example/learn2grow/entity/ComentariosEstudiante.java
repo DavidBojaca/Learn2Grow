@@ -30,8 +30,8 @@ public class ComentariosEstudiante {
         fechaRegistro= LocalDateTime.now();
     }
 
-    //@OneToMany(cascade = CascadeType.ALL,mappedBy = "comentarioEstudinate")
-    //private List<RespuestasEstudiante> listRespuesta;
+    @OneToMany(cascade = CascadeType.ALL,mappedBy = "comentarioEstudiante")
+    private List<RespuestasEstudiante> listRespuesta;
 
 
 

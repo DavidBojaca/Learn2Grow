@@ -2,33 +2,40 @@ package com.example.learn2grow.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.NonNull;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Data
-public class ComentariosProfesor {
+public class Profesor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "Id")
-    private Long id_comentario_profesor;
+    private Long id;
 
+    private Integer cc;
     private String name;
-    private String comentario;
+    private String apellido;
+    private String estudios;
+    private String descripcion;
+    private String correo;
+    private String mentor;
 
     @DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
     private LocalDateTime fechaRegistro;
-
+    private LocalDateTime fechaNacimiento;
 
     @PrePersist
     private void asignarFechaRegistro(){
         fechaRegistro= LocalDateTime.now();
     }
 
-    @ManyToOne()
-    @JoinColumn(name = "FK_Profesor")
-    ComentariosProfesor comentariosProfesor;
+
+    @OneToMany(cascade = CascadeType.ALL,mappedBy = "id_comentario_profesor")
+    private List<ComentariosProfesor> listComentarios;
+
+
+
 }
