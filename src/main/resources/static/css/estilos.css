@@ -35,6 +35,20 @@
     width: auto; /* ancho ajustado automáticamente para mantener la proporción */
   }
 
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+}
+
 
 
 
