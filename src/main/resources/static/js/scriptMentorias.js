@@ -3,6 +3,7 @@ function solicitarMentorias() {
     let a=$("#nombre").val();
     let b=$("#email").val();
     let c=$("#area").val();
+
     document.getElementById("campo").reset();
 
     let data={
