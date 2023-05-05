@@ -1,0 +1,64 @@
+.navbar {
+    background-color:#CEC6B6;
+  }
+
+  .nav-item{
+    
+  }
+
+  .navbar-brand img {
+    height: 60px; /* altura deseada */
+    width: auto; /* ancho ajustado automáticamente para mantener la proporción */
+
+  }
+
+  .btn {
+    background-color: #b59b67;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(../imagenes/FondoLogin.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .container {
+    /* Estilos para la clase container */
+    width: 100%; /* Ejemplo de estilo */
+    margin: 0 auto; /* Ejemplo de estilo */
+    /*background-color: #aacbcb*/;
+    font-family: now;
+
+  }
+  .flex{
+    display: flex;
+  }
+
+.jumbotron img{
+  height: auto; /* altura deseada */
+  width: auto; /* ancho ajustado automáticamente para mantener la proporción */
+}
+
+.jumbotron {
+  background-color:  #CEC6B6;
+}
+
+
+
+
+
+
+
+
