@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang=""en>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learn2Grow.com</title>
+
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/scriptEstudiantes.js"></script>
+<link rel="stylesheet" href="css/estilos.css">
+<body>
+<!--barra de navegacion-->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="profesores.html">
+      <img src="imagenes/learn2grow.png" alt="Logo de la empresa" width="60" height="60" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="profesores.html" style="color: black;">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://i.pinimg.com/564x/89/ec/b8/89ecb8dd7d811bd08160e44d3717bc30.jpg" style="color: black;">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/DavidBojaca/Learn2Grow" style="color: black;">Sobre nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://instagram.com/gitly_usa?igshid=YmMyMTA2M2Y=" style="color: black;">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="NuevoProfesor.html" style="color: black;"><i class="bi bi-person"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Cabecera -->
+<header class="jumbotron">
+  <!--  <img src="https://gimnasiomoderno.edu.co/wp-content/uploads/2017/11/Escribir-para-comunicar-Banner.png" alt="Imagen de decoracion"   > -->
+  <!-- <img src="imagenes/Banner.png" alt="Logo de decoracion" width="400"> -->
+  <div  class="container">
+    <div class="row justify-content-center">
+      <img src="https://gimnasiomoderno.edu.co/wp-content/uploads/2017/11/Escribir-para-comunicar-Banner.png" alt="Logo de decoracion">
+      <h1 class="display-4" style="color: black" >Bienvenido a learn2grow</h1>
+      <p class="lead" style="color: black">Aquí encontrarás una gran variedad de herramientas en línea para ampliar tus conocimientos y mejorar tus habilidades.</p>
+
+    </div>
+    <a class="btn btn-primary btn-lg" href="https://i.pinimg.com/564x/23/5f/f0/235ff047707f5f8bc4ab67e0739fa350.jpg" role="button">Explorar herramientas</a>
+
+  </div>
+</header>
+
+<!-- Sección de Cursos Destacados -->
+<section class="container my-5"> </section>
+<h1 class="text-center mb-4">Herramientas</h1>
+
+<div class="flex" >
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://tecnoschool.com.ar/cursos/wp-content/uploads/2020/07/programacion-web.gif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Foro de estudiantes</h5>
+          <p class="card-text">Accde al foro de los estudiantes para que aprendas nuevas metodologias, que adaptarras en tus catedras.</p>
+        </div>
+        <div class="card-footer">
+          <div id="cajaComentariosForo">
+           <a onclick="window.location.href='foroEstudiantesVistaProfesores.html'" class="btn btn-primary">Ver Foro Estudiantes</a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+   <div class="col">
+     <div class="card h-100">
+       <img src="https://almasuite.com/wp-content/uploads/2021/08/Capacitacion_y_gestion_del_conocimiento.gif" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Foro de Docentes</h5>
+         <p class="card-text">Comparte tus metodologias y experiencias como docente en un foro que busca entender y mejorar la academia</p>
+       </div>
+       <div class="card-footer" >
+         <a onclick="window.location.href='foroProfesores.html'" class="btn btn-primary">Ver Foro</a>
+       </div>
+     </div>
+   </div>
+
+   <div class="col">
+     <div class="card h-100">
+       <img src="https://rutatic.udea.edu.co/pluginfile.php/2447/mod_forum/intro/evaluacion-y-aprendizaje-significativo.gif" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Mentorias</h5>
+         <p class="card-text">Accede al servicio de mentorias con docentes en linea</p>
+       </div>
+       <div class="card-footer" >
+         <a onclick="window.location.href='mentorias.html'" class="btn btn-primary">Ver Mentorias</a>
+       </div>
+     </div>
+   </div>
+
+   <div class="col">
+     <div class="card h-100">
+       <img src="https://evaproductions.net/wp-content/uploads/2022/03/80356-online-learning.gif" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Capacitaciones</h5>
+         <p class="card-text">Accede al servicio de capacitaciones con docentes en linea</p>
+       </div>
+       <div class="card-footer" >
+         <a onclick="window.location.href='mentorias.html'" class="btn btn-primary">Ver Capacitaciones</a>
+       </div>
+     </div>
+   </div>
+
+
+ </div>
+
+</div>
+
+</body>
+</html>
