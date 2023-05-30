@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Foro Estudiantes Learn2Grow</title>
+</head>
+<body>
+<h1>Listado de comentarios de estudiantes</h1>
+</body>
+</html>
+
+
+StringBuffer builder = new StringBuffer();
+builder.append(System.getProperty("user.home"));
+builder.append(File.separator);
+builder.append("sprint_upload_example");
+builder.append(file.getOriginalFilename());
+
+byte[] fileBytes = file.getBytes();
+Path path = Paths.get(builder.toString());
+Files.write(path, fileBytes);
+
+attributes.addFlashAttribute("message","Archivo cargado correctamente ["+builder.toString()+"]");
+
+return "redirect:/status";

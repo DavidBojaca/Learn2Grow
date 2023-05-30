@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui ;
+
+}
+
+body{
+    background-image: url(../imagenes/Fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.dragdrop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+
+    position: relative;
+    transform: translateY(30px);
+}
+
+.coment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    transform: translateY(50px);
+}
+
+.drop-area{
+    border:  5px dashed gray;
+    height: 400px;
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.drop-area.active{
+    background-color: #b8d4fe;
+    color: black;
+    border: 2px dashed #618ac9;
+
+}
+.drop-area h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+}
+
+.drop-area span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+}
+.drop-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.btn {
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.file-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px #ddd;
+}
+
+#preview{
+    margin-top: 10px;
+}
+
+.status-text{
+    padding: 0 10px;
+}
+
+.success{
+    color: #52ad5a;
+}
+
+.failure{
+    color: #ff0000;
+}
